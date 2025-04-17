@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spookiffy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-black text-white">
+
+    <div class="p-4">
+        <!-- Status Bar -->
+        <div class="flex justify-between items-center mb-4">
+            <div class="text-lg">5:04:19</div>
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-battery-three-quarters"></i>
+                <div>69%</div>
+            </div>
+        </div>
+
+    
+        <div class="flex space-x-2 mb-4">
+
+         <!--Navigations-->
+        <a href="index.html" class="bg-green-500 text-black px-4 py-2 rounded-full hover:bg-green-600">All</a>
+        <a href="Music.html" class="bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-600">Music</a>
+        <a href="Podcast.html" class="bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-600">Podcasts</a>
+        <a href="premium.html" class="bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-600">Premium</a>
+        <a href="about.html" class="bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-600">About</a>
+
+            <a href="index.html"></a>
+            <a href="Music.html"></a>
+            <a href="Podcast.html"></a>
+            <a href="premium.html"></a>
+            <a href="about.html"></a>
+
+
+
+
+        </div>
+
+        <!-- Playlists Section -->
+        <h2 class="text-xl mb-2">Songs</h2>
+        <div class="grid grid-cols-2 gap-2 mb-4">
+            <a href="#kalimutan-ka" class="bg-gray-800 p-2 flex items-center space-x-2 hover:bg-gray-700 cursor-pointer">
+                <img src="skusta.jpg" alt="Playlist" class="w-12 h-12 rounded">
+                <div>Kalimutan Ka - Skusta Clee</div>
+            </a>
+            <a href="#back-burner" class="bg-gray-800 p-2 flex items-center space-x-2 hover:bg-gray-700 cursor-pointer">
+                <img src="niki.jpg" alt="Album" class="w-12 h-12 rounded">
+                <div>Back Burner - Niki</div>
+            </a>
+            <a href="#autumn" class="bg-gray-800 p-2 flex items-center space-x-2 hover:bg-gray-700 cursor-pointer">
+                <img src="niki.jpg" alt="Playlist" class="w-12 h-12 rounded">
+                <div>Autumn - Niki</div>
+            </a>
+            <a href="#soulmate" class="bg-gray-800 p-2 flex items-center space-x-2 hover:bg-gray-700 cursor-pointer">
+                <img src="soul.jpg" alt="Album" class="w-12 h-12 rounded">
+                <div>Soulmate Who Wasn't Meant to Be</div>
+            </a>
+            <a href="#I know you" class="bg-gray-800 p-2 flex items-center space-x-2 hover:bg-gray-700 cursor-pointer">
+                <img src="i know.jpg" alt="Playlist" class="w-12 h-12 rounded">
+                <div>I know you - Faye Webster</div>
+            </a>
+            <a href="#We hug now" class="bg-gray-800 p-2 flex items-center space-x-2 hover:bg-gray-700 cursor-pointer">
+                <img src="hug.jpg" alt="Album" class="w-12 h-12 rounded">
+                <div>We hug now- Sydner Rose</div>
+            </a>
+
+        </div>
+
+        <!-- Playlist Details -->
+        <div id="kalimutan-ka" class="hidden p-3 bg-gray-800 rounded mt-4">
+            <h3 class="text-xl mb-2">Kalimutan Ka - Skusta Clee</h3>
+            <p>ARAW KUPU KALIMUTAN?KAHIT AYAW?AHHHAHAHAHAHAHA</p>
+        </div>
+        <div id="back-burner" class="hidden p-3 bg-gray-800 rounded mt-4">
+            <h3 class="text-xl mb-2">Back Burner - Niki</h3>
+            <p>HAHAHAHAHAHA BACKBURNER.</p>
+        </div>
+        <div id="autumn" class="hidden p-3 bg-gray-800 rounded mt-4">
+            <h3 class="text-xl mb-2">Autumn - Niki</h3>
+            <p>WALA NA YAN DI NA YAN MASASALBA.</p>
+        </div>
+        <div id="soulmate" class="hidden p-3 bg-gray-800 rounded mt-4">
+            <h3 class="text-xl mb-2">Soulmate Who Wasn't Meant to Be</h3>
+            <p>ARAW KUPU RIGHT PERSONG WRONG TIMING??.</p>
+        </div>
+
+        <div id=" I know you" class="hidden p-3 bg-gray-800 rounded mt-4">
+            <h3 class="text-xl mb-2">I know you</h3>
+            <p>HAHAHAHHAHA WALA NA YAN</p>
+        </div>
+
+        <!-- Music Player Controls -->
+        <div class="fixed bottom-0 left-4 right-4 bg-gray-900 p-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <img src="fall.jpg" alt="Current song" class="w-12 h-12 rounded">
+                <div>
+                    <div>Fall Back - Porch Light</div>
+                    <div class="text-gray-400 text-sm">Karaoke</div>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <i class="fas fa-play text-xl cursor-pointer hover:text-gray-400"></i>
+                <i class="fas fa-forward text-xl cursor-pointer hover:text-gray-400"></i>
+            </div>
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-volume-up text-xl"></i>
+                <div class="w-24 bg-gray-700 h-1 rounded-full">
+                    <div class="bg-green-500 h-1 rounded-full" style="width: 50%;"></div>
+               </div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>

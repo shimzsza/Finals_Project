@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About the Developers</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: hsla(0, 0%, 0%, 0.997);
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #121212;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo {
+      font-size: 1.5rem;
+      color: #1db954;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .nav-links a {
+      margin-left: 20px;
+      color: #ccc;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #fff;
+    }
+
+    header {
+      background-color: #1db954;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #000;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .developer-card {
+      display: flex;
+      align-items: center;
+      background-color: #1e1e1e;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .developer-card:hover {
+      transform: scale(1.02);
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-right: 20px;
+      object-fit: cover;
+      border: 3px solid #1db954;
+    }
+
+    .dev-info h2 {
+      color: #1db954;
+      font-size: 1.8rem;
+    }
+
+    .dev-info p {
+      color: #ccc;
+      margin: 8px 0;
+    }
+
+    footer {
+      background-color: #1db954;
+      color: #000;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 700px) {
+      .developer-card {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .profile-img {
+        margin-bottom: 15px;
+        margin-right: 0;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        text-align: right;
+      }
+
+      .nav-links a {
+        margin-left: 0;
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="premium.html" class="nav-logo">Spotify Premium</a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="Podcast.html">Podcast</a>
+      <a href="premium.html">Premium</a>
+     
+    </div>
+  </nav>
+
+  <header>
+    <h1>About the Developers</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="developer-card">
+      <img src="ace.jpg" alt="Ace Caniedo" class="profile-img">
+      <div class="dev-info">
+        <h2>Ace Caniedo</h2>
+        <p><strong>Role:</strong> Front-End Developer / UI Designer</p>
+        <p><strong>About:</strong> An IT student and musician who vibes with clean, stylish UI and smooth user experience.</p>
+        <p><strong>Skills:</strong> HTML, Tailwind, Figma, Balsamiq</p>
+      </div>
+    </div>
+
+    <div class="developer-card">
+      <img src="saycon.jpg" alt="John Estephen Saycon" class="profile-img">
+      <div class="dev-info">
+        <h2>John Estephen Saycon</h2>
+        <p><strong>Role:</strong> Back-End Developer</p>
+        <p><strong>About:</strong> Focused on functional logic and database work. Quiet but reliable team player.</p>
+        <p><strong>Skills:</strong> JavaScript, PHP, MySQL</p>
+      </div>
+    </div>
+
+    <div class="developer-card">
+      <img src="tardio.jpg" alt="Mark Tardio" class="profile-img">
+      <div class="dev-info">
+        <h2>Mark Tardio</h2>
+        <p><strong>Role:</strong> QA & Documentation</p>
+        <p><strong>About:</strong> The perfectionist of the group — ensures everything is well-tested and documented.</p>
+        <p><strong>Skills:</strong> Testing, Docs, Organization</p>
+      </div>
+    </div>
+
+    <div class="developer-card">
+      <img src="rain.jpg" alt="Rainer Clint" class="profile-img">
+      <div class="dev-info">
+        <h2>Rainer Clint</h2>
+        <p><strong>Role:</strong> Project Manager</p>
+        <p><strong>About:</strong> Keeps the team on track and the project organized. A natural leader with a love for music and tech.</p>
+        <p><strong>Skills:</strong> Planning, Communication, Leadership</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Ace, Saycon, Tardio, Rainer Dev Team | Submitted to Mr. Aqui Java</p>
+  </footer>
+
+</body>
+</html>
